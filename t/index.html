@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+      <div class="latest-transfers">
+        <div class="countries">
+          <a href="/clubs/"> CLUBS </a>
+          <a href="{% url 'latest_transfers' %}"> LATEST TRANSFERS </a>
+          <a href="{% url 'players' %}"> PLAYERS </a>
+          <a href="/u20_players/"> U-20 PLAYERS </a>
+          <a href="/tryouts/"> TRYOUTS </a>
+          <a href="./stats.html"> STATS </a>
+        </div>
+      </div>
+{% endblock %}
